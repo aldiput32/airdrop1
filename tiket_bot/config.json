@@ -1,0 +1,28 @@
+{
+  "capsolver": {
+    "api_key": "YOUR_CAPSOLVER_API_KEY_HERE",
+    "recaptcha_site_key": "6LeNJOEhAAAAAFnroUWNznAnSCGltIxOdDeiA5OJ",
+    "recaptcha_page_url": "https://www.tiket.com/id-id/to-do/solitaire-prioritas-bca-casa-ducati-motogp-mandalika-2026/order"
+  },
+  "proxy": {
+    "enabled": true,
+    "type": "http",
+    "host": "YOUR_PROXY_HOST",
+    "port": 8080,
+    "username": "YOUR_PROXY_USER",
+    "password": "YOUR_PROXY_PASS"
+  },
+  "tiket": {
+    "base_url": "https://www.tiket.com",
+    "locale": "id-id",
+    "currency": "IDR",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  "settings": {
+    "max_retries": 3,
+    "delay_between_steps_sec": 2,
+    "timeout_sec": 30,
+    "auto_payment": true,
+    "payment_method": "va_bca"
+  }
+}

@@ -1,0 +1,27 @@
+# Tiket.com Order Data
+# Format: key=value (satu per baris)
+# Baris dengan # adalah komentar
+
+# === PRODUK ===
+slug=solitaire-prioritas-bca-casa-ducati-motogp-mandalika-2026
+package_name=BCA Solitare & Priority Bundling (5 packages)
+event_date=2026-10-09
+quantity=5
+ticket_type=Pax
+
+# === KONTAK PEMESAN ===
+salutation=Mr
+fullname=John Doe
+phone_country_code=+62
+phone_number=81234567890
+email=johndoe@gmail.com
+country=Indonesia
+
+# === DETAIL PENGUNJUNG ===
+visitor_same_as_contact=true
+visitor_fullname=John Doe
+visitor_phone=81234567890
+visitor_email=johndoe@gmail.com
+
+# === PEMBAYARAN ===
+payment_method=va_bca
